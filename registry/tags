@@ -1,0 +1,649 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Archive	lib/layers.py	/^class Archive(lzma.LZMAFile):$/;"	c
+Base	core/boto.py	/^class Base(driver.Base):$/;"	c
+Base	core/driver.py	/^class Base(object):$/;"	c
+Base	lib/index/db_sqlalchemy.py	/^Base = sqlalchemy.ext.declarative.declarative_base()$/;"	v
+BaseQueue	lib/rqueue.py	/^class BaseQueue(object):$/;"	c
+BrokenError	core/exceptions.py	/^class BrokenError(ConnectionError):$/;"	c
+Bucket	testing/mock_boto.py	/^class Bucket(boto.s3.bucket.Bucket):$/;"	c
+Bucket__init__	testing/mock_boto.py	/^Bucket__init__ = boto.s3.bucket.Bucket.__init__$/;"	v
+CATEGORY	service.py	/^CATEGORY = index.load_category()$/;"	v
+CONCURRENCY	core/boto.py	/^    CONCURRENCY = 5$/;"	v	class:ParallelKey
+CappedCollection	lib/rqueue.py	/^class CappedCollection(BaseQueue):$/;"	c
+Category	lib/index/db.py	/^class Category(db.Model):$/;"	c
+Cloudfront	drivers/s3.py	/^class Cloudfront(object):$/;"	c
+Config	lib/config.py	/^class Config(object):$/;"	c
+Config	testing/utils.py	/^class Config(object):$/;"	c
+ConfigError	core/exceptions.py	/^class ConfigError(UsageError):$/;"	c
+ConnectionError	core/exceptions.py	/^class ConnectionError(UnspecifiedError):$/;"	c
+DB	lib/index/__init__.py	/^DB = db.db$/;"	v
+DB	wsgi.py	/^DB = index.DB$/;"	v
+Driver	testing/driver.py	/^class Driver(object):$/;"	c
+FILE_TYPES	lib/layers.py	/^FILE_TYPES = {$/;"	v
+FileNotFoundError	core/exceptions.py	/^class FileNotFoundError(UsageError):$/;"	c
+INDEX	search.py	/^INDEX = index.load(cfg.search_backend.lower())$/;"	v
+Index	lib/index/__init__.py	/^class Index (object):$/;"	c
+Key	testing/mock_boto.py	/^class Key(boto.s3.key.Key):$/;"	c
+Lock	lib/rlock.py	/^class Lock(object):$/;"	c
+LockTimeout	lib/rlock.py	/^class LockTimeout(BaseException):$/;"	c
+MagicMock__init__	testing/mock_dict.py	/^MagicMock__init__ = mock.MagicMock.__init__$/;"	v
+MissingError	core/exceptions.py	/^class MissingError(ConnectionError):$/;"	c
+MockDict	testing/mock_dict.py	/^class MockDict(mock.MagicMock):$/;"	c
+MultiPartUpload	testing/mock_boto.py	/^class MultiPartUpload(boto.s3.multipart.MultiPartUpload):$/;"	c
+NotImplementedError	core/exceptions.py	/^class NotImplementedError(UsageError):$/;"	c
+NullHandler	core/__init__.py	/^    NullHandler = logging.NullHandler$/;"	v
+NullHandler	core/__init__.py	/^    class NullHandler(logging.Handler):$/;"	c
+NullHandler	lib/rqueue.py	/^class NullHandler(logging.Handler):$/;"	c
+ParallelKey	core/boto.py	/^class ParallelKey(object):$/;"	c
+Query	testing/query.py	/^class Query(object):$/;"	c
+RECOMMEND	service.py	/^RECOMMEND = index.load_recommend()$/;"	v
+RE_USER_AGENT	tags.py	/^RE_USER_AGENT = re.compile('([^\\s\/]+)\/([^\\s\/]+)')$/;"	v
+RE_VALID_TAG	tags.py	/^RE_VALID_TAG = re.compile('^[\\w][\\w.-]{0,127}$')$/;"	v
+Recommend	lib/index/db.py	/^class Recommend (db.Model):$/;"	c
+Recommend	lib/index/db_sqlalchemy.py	/^class Recommend (Base):$/;"	c
+Repository	lib/index/db.py	/^class Repository (db.Model):$/;"	c
+Repository	lib/index/db_sqlalchemy.py	/^class Repository (Base):$/;"	c
+S3Connection	testing/mock_boto.py	/^class S3Connection(boto.s3.connection.S3Connection):$/;"	c
+SERVICE	service.py	/^SERVICE = index.load_service()$/;"	v
+SQLAlchemyCategory	lib/index/models.py	/^class SQLAlchemyCategory():$/;"	c
+SQLAlchemyIndex	lib/index/db_sqlalchemy.py	/^class SQLAlchemyIndex (Index):$/;"	c
+SQLAlchemyIndex	lib/index/models.py	/^class SQLAlchemyIndex (Index):$/;"	c
+SQLAlchemyRecommend	lib/index/models.py	/^class SQLAlchemyRecommend():$/;"	c
+SQLAlchemyService	lib/index/db_sqlalchemy.py	/^class SQLAlchemyService (Index):$/;"	c
+SQLAlchemyService	lib/index/models.py	/^class SQLAlchemyService (Index):$/;"	c
+Service	lib/index/db.py	/^class Service (db.Model):$/;"	c
+Service	lib/index/db_sqlalchemy.py	/^class Service (Base):$/;"	c
+SocketReader	toolkit.py	/^class SocketReader(object):$/;"	c
+Storage	drivers/dumb.py	/^class Storage(driver.Base):$/;"	c
+Storage	drivers/file.py	/^class Storage(driver.Base):$/;"	c
+Storage	drivers/s3.py	/^class Storage(coreboto.Base):$/;"	c
+TarFilesInfo	lib/layers.py	/^class TarFilesInfo(object):$/;"	c
+TarSum	lib/checksums.py	/^class TarSum(object):$/;"	c
+UnreachableError	core/exceptions.py	/^class UnreachableError(ConnectionError):$/;"	c
+UnspecifiedError	core/exceptions.py	/^class UnspecifiedError(Exception):$/;"	c
+UsageError	core/exceptions.py	/^class UsageError(UnspecifiedError):$/;"	c
+Version	lib/index/db.py	/^class Version(db.Model):$/;"	c
+Version	lib/index/db_sqlalchemy.py	/^class Version (Base):$/;"	c
+WrongArgumentsError	core/exceptions.py	/^class WrongArgumentsError(UsageError):$/;"	c
+_DEFAULT	server/env.py	/^_DEFAULT = {$/;"	v
+__all__	core/compat.py	/^__all__ = ['builtin_str', 'str', 'bytes', 'basestring', 'json', 'quote_plus',$/;"	v
+__all__	core/driver.py	/^__all__ = ["fetch", "available", "Base"]$/;"	v
+__all__	core/exceptions.py	/^__all__ = [$/;"	v
+__all__	lib/index/__init__.py	/^__all__ = ['load']$/;"	v
+__all__	server/env.py	/^__all__ = ['source']$/;"	v
+__all__	storage/__init__.py	/^__all__ = ['load']$/;"	v
+__all__	testing/__init__.py	/^__all__ = ['Query', 'Driver', 'Config']$/;"	v
+__author__	core/__init__.py	/^__author__ = 'Docker'$/;"	v
+__author__	server/__init__.py	/^__author__ = 'Docker Registry Contributors'$/;"	v
+__build__	core/__init__.py	/^__build__ = 0x000000$/;"	v
+__build__	server/__init__.py	/^__build__ = 0x000000$/;"	v
+__call__	lib/rqueue.py	/^    def __call__(self, f):$/;"	m	class:worker	file:
+__contains__	lib/config.py	/^    def __contains__(self, key):$/;"	m	class:Config	file:
+__copyright__	core/__init__.py	/^__copyright__ = 'Copyright 2014 Docker'$/;"	v
+__copyright__	server/__init__.py	/^__copyright__ = 'Copyright 2014 Docker'$/;"	v
+__credits__	core/__init__.py	/^__credits__ = []$/;"	v
+__credits__	server/__init__.py	/^__credits__ = []$/;"	v
+__del__	core/boto.py	/^    def __del__(self):$/;"	m	class:ParallelKey	file:
+__description__	core/__init__.py	/^__description__ = 'Docker registry core package'$/;"	v
+__description__	server/__init__.py	/^__description__ = 'Registry server for Docker'$/;"	v
+__dir__	lib/config.py	/^    def __dir__(self):$/;"	m	class:Config	file:
+__download__	core/__init__.py	/^__download__ = 'https:\/\/github.com\/docker\/docker-registry\/archive\/master.zip'$/;"	v
+__download__	server/__init__.py	/^__download__ = 'https:\/\/github.com\/docker\/docker-registry\/archive\/master.zip'$/;"	v
+__email__	core/__init__.py	/^__email__ = 'dev@docker.com'$/;"	v
+__email__	server/__init__.py	/^__email__ = 'docker-dev@googlegroups.com'$/;"	v
+__enter__	lib/rlock.py	/^    def __enter__(self):$/;"	m	class:Lock	file:
+__exit__	lib/rlock.py	/^    def __exit__(self, exc_type, exc_value, traceback):$/;"	m	class:Lock	file:
+__getattr__	lib/config.py	/^    def __getattr__(self, key):$/;"	m	class:Config	file:
+__getattr__	testing/utils.py	/^    def __getattr__(self, key):$/;"	m	class:Config	file:
+__getitem__	lib/config.py	/^    def __getitem__(self, key):$/;"	m	class:Config	file:
+__getitem__	lib/rqueue.py	/^    def __getitem__(self, val):$/;"	m	class:BaseQueue	file:
+__getitem__	testing/utils.py	/^    def __getitem__(self, key):$/;"	m	class:Config	file:
+__init__	core/boto.py	/^    def __init__(self, key):$/;"	m	class:ParallelKey
+__init__	core/boto.py	/^    def __init__(self, path=None, config=None):$/;"	m	class:Base
+__init__	core/driver.py	/^    def __init__(self, path=None, config=None):$/;"	m	class:Base
+__init__	core/exceptions.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:UnspecifiedError
+__init__	drivers/dumb.py	/^    def __init__(self, path=None, config=None):$/;"	m	class:Storage
+__init__	drivers/file.py	/^    def __init__(self, path=None, config=None):$/;"	m	class:Storage
+__init__	drivers/s3.py	/^    def __init__(self, awsaccess, awssecret, base, keyid, privatekey):$/;"	m	class:Cloudfront
+__init__	drivers/s3.py	/^    def __init__(self, path, config):$/;"	m	class:Storage
+__init__	lib/checksums.py	/^    def __init__(self, json_data):$/;"	m	class:TarSum
+__init__	lib/config.py	/^    def __init__(self, config=None):$/;"	m	class:Config
+__init__	lib/index/__init__.py	/^    def __init__(self):$/;"	m	class:Index
+__init__	lib/index/db.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Category
+__init__	lib/index/db.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Recommend
+__init__	lib/index/db.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Repository
+__init__	lib/index/db.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Service
+__init__	lib/index/db.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Version
+__init__	lib/index/db_sqlalchemy.py	/^    def __init__(self, database=None):$/;"	m	class:SQLAlchemyIndex
+__init__	lib/index/db_sqlalchemy.py	/^    def __init__(self, database=None):$/;"	m	class:SQLAlchemyService
+__init__	lib/index/models.py	/^    def __init__(self):$/;"	m	class:SQLAlchemyCategory
+__init__	lib/index/models.py	/^    def __init__(self):$/;"	m	class:SQLAlchemyRecommend
+__init__	lib/index/models.py	/^    def __init__(self, database=None):$/;"	m	class:SQLAlchemyIndex
+__init__	lib/index/models.py	/^    def __init__(self, database=None):$/;"	m	class:SQLAlchemyService
+__init__	lib/layers.py	/^    def __init__(self):$/;"	m	class:TarFilesInfo
+__init__	lib/layers.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Archive
+__init__	lib/rlock.py	/^    def __init__(self, redis, lock_type, key, expires=60):$/;"	m	class:Lock
+__init__	lib/rqueue.py	/^    def __init__(self, q, *args, **kwargs):$/;"	m	class:worker
+__init__	lib/rqueue.py	/^    def __init__(self, r_conn, key, **kwargs):$/;"	m	class:BaseQueue
+__init__	lib/rqueue.py	/^    def __init__(self, r_conn, key, size, **kwargs):$/;"	m	class:CappedCollection
+__init__	testing/driver.py	/^    def __init__(self, scheme=None, path=None, config=None):$/;"	m	class:Driver
+__init__	testing/mock_boto.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Bucket
+__init__	testing/mock_boto.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:S3Connection
+__init__	testing/mock_dict.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:MockDict
+__init__	testing/query.py	/^    def __init__(self, scheme=None):$/;"	m	class:Query
+__init__	testing/utils.py	/^    def __init__(self, config):$/;"	m	class:Config
+__init__	toolkit.py	/^    def __init__(self, fp):$/;"	m	class:SocketReader
+__iter__	toolkit.py	/^    def __iter__(self):$/;"	m	class:SocketReader	file:
+__len__	lib/rqueue.py	/^    def __len__(self):$/;"	m	class:BaseQueue	file:
+__license__	core/__init__.py	/^__license__ = 'Apache 2.0'$/;"	v
+__license__	server/__init__.py	/^__license__ = 'Apache 2.0'$/;"	v
+__maintainer__	core/__init__.py	/^__maintainer__ = 'Docker'$/;"	v
+__maintainer__	server/__init__.py	/^__maintainer__ = __author__$/;"	v
+__members__	lib/config.py	/^    def __members__(self):$/;"	m	class:Config	file:
+__methods__	lib/config.py	/^    def __methods__(self):$/;"	m	class:Config	file:
+__repr__	lib/config.py	/^    def __repr__(self):$/;"	m	class:Config	file:
+__repr__	lib/index/db.py	/^    def __repr__(self):$/;"	m	class:Category	file:
+__repr__	lib/index/db.py	/^    def __repr__(self):$/;"	m	class:Recommend	file:
+__repr__	lib/index/db.py	/^    def __repr__(self):$/;"	m	class:Repository	file:
+__repr__	lib/index/db.py	/^    def __repr__(self):$/;"	m	class:Service	file:
+__repr__	lib/index/db.py	/^    def __repr__(self):$/;"	m	class:Version	file:
+__repr__	lib/index/db_sqlalchemy.py	/^    def __repr__(self):$/;"	m	class:Recommend	file:
+__repr__	lib/index/db_sqlalchemy.py	/^    def __repr__(self):$/;"	m	class:Repository	file:
+__repr__	lib/index/db_sqlalchemy.py	/^    def __repr__(self):$/;"	m	class:Service	file:
+__repr__	lib/index/db_sqlalchemy.py	/^    def __repr__(self):$/;"	m	class:Version	file:
+__repr__	testing/utils.py	/^    def __repr__(self):$/;"	m	class:Config	file:
+__status__	core/__init__.py	/^__status__ = 'Production'$/;"	v
+__status__	server/__init__.py	/^__status__ = 'Production'$/;"	v
+__tablename__	lib/index/db.py	/^    __tablename__ = 'category'$/;"	v	class:Category
+__tablename__	lib/index/db.py	/^    __tablename__ = 'recommend'$/;"	v	class:Recommend
+__tablename__	lib/index/db.py	/^    __tablename__ = 'repository'$/;"	v	class:Repository
+__tablename__	lib/index/db.py	/^    __tablename__ = 'service'$/;"	v	class:Service
+__tablename__	lib/index/db.py	/^    __tablename__ = 'version'$/;"	v	class:Version
+__tablename__	lib/index/db_sqlalchemy.py	/^    __tablename__ = 'recommend'$/;"	v	class:Recommend
+__tablename__	lib/index/db_sqlalchemy.py	/^    __tablename__ = 'repository'$/;"	v	class:Repository
+__tablename__	lib/index/db_sqlalchemy.py	/^    __tablename__ = 'service'$/;"	v	class:Service
+__tablename__	lib/index/db_sqlalchemy.py	/^    __tablename__ = 'version'$/;"	v	class:Version
+__title__	core/__init__.py	/^__title__ = 'docker-registry-core'$/;"	v
+__title__	server/__init__.py	/^__title__ = 'docker-registry'$/;"	v
+__url__	core/__init__.py	/^__url__ = 'https:\/\/github.com\/docker\/docker-registry'$/;"	v
+__url__	server/__init__.py	/^__url__ = 'https:\/\/github.com\/docker\/docker-registry'$/;"	v
+__version__	core/__init__.py	/^__version__ = '2.0.3'$/;"	v
+__version__	server/__init__.py	/^__version__ = '1.0.0-dev'$/;"	v
+_adapt_smtp_secure	app.py	/^def _adapt_smtp_secure(value):$/;"	f
+_bucket	testing/mock_boto.py	/^    _bucket = mock_dict.MockDict()$/;"	v	class:Bucket
+_bucket_dict	testing/mock_boto.py	/^    def _bucket_dict(self):$/;"	m	class:Bucket
+_build_connection_params	core/boto.py	/^    def _build_connection_params(self):$/;"	m	class:Base
+_build_connection_params	drivers/s3.py	/^    def _build_connection_params(self):$/;"	m	class:Storage
+_check_can_seek	lib/layers.py	/^    def _check_can_seek(self):$/;"	m	class:Archive
+_config	lib/config.py	/^_config = None$/;"	v
+_debug_key	core/boto.py	/^    def _debug_key(self, key):$/;"	m	class:Base
+_delete_tag	tags.py	/^def _delete_tag(namespace, repository, tag):$/;"	f
+_fetch_part	core/boto.py	/^    def _fetch_part(self, fname, index, min_cur, max_cur):$/;"	m	class:ParallelKey
+_generate_bytes_ranges	core/boto.py	/^    def _generate_bytes_ranges(self, num_parts):$/;"	m	class:ParallelKey
+_generate_index	lib/index/db_sqlalchemy.py	/^    def _generate_index(self, session):$/;"	m	class:SQLAlchemyIndex
+_generate_index	lib/index/models.py	/^    def _generate_index(self):$/;"	m	class:SQLAlchemyIndex
+_get_image_json	images.py	/^def _get_image_json(image_id, headers=None):$/;"	f
+_get_image_layer	images.py	/^def _get_image_layer(image_id, headers=None, bytes_range=None):$/;"	f
+_get_tags	tags.py	/^def _get_tags(namespace, repository):$/;"	f
+_handle_mirrored_layer	lib/mirroring.py	/^def _handle_mirrored_layer(source_resp, layer_path, store, headers):$/;"	f
+_handle_repository_created	lib/index/__init__.py	/^    def _handle_repository_created($/;"	m	class:Index
+_handle_repository_created	lib/index/db_sqlalchemy.py	/^    def _handle_repository_created($/;"	m	class:SQLAlchemyIndex
+_handle_repository_created	lib/index/db_sqlalchemy.py	/^    def _handle_repository_created(self, sender, namespace, repository, value):$/;"	m	class:SQLAlchemyService
+_handle_repository_created	lib/index/models.py	/^    def _handle_repository_created($/;"	m	class:SQLAlchemyIndex
+_handle_repository_created	lib/index/models.py	/^    def _handle_repository_created(self, sender, namespace, repository, value):$/;"	m	class:SQLAlchemyService
+_handle_repository_deleted	lib/index/__init__.py	/^    def _handle_repository_deleted(self, sender, namespace, repository):$/;"	m	class:Index
+_handle_repository_deleted	lib/index/db_sqlalchemy.py	/^    def _handle_repository_deleted(self, sender, namespace, repository):$/;"	m	class:SQLAlchemyIndex
+_handle_repository_deleted	lib/index/db_sqlalchemy.py	/^    def _handle_repository_deleted(self, sender, namespace, repository):$/;"	m	class:SQLAlchemyService
+_handle_repository_deleted	lib/index/models.py	/^    def _handle_repository_deleted(self, sender, namespace, repository):$/;"	m	class:SQLAlchemyIndex
+_handle_repository_deleted	lib/index/models.py	/^    def _handle_repository_deleted(self, sender, namespace, repository):$/;"	m	class:SQLAlchemyService
+_handle_repository_updated	lib/index/__init__.py	/^    def _handle_repository_updated($/;"	m	class:Index
+_handle_repository_updated	lib/index/db_sqlalchemy.py	/^    def _handle_repository_updated($/;"	m	class:SQLAlchemyIndex
+_handle_repository_updated	lib/index/db_sqlalchemy.py	/^    def _handle_repository_updated(self, sender, namespace, repository, value):$/;"	m	class:SQLAlchemyService
+_handle_repository_updated	lib/index/models.py	/^    def _handle_repository_updated($/;"	m	class:SQLAlchemyIndex
+_handle_repository_updated	lib/index/models.py	/^    def _handle_repository_updated(self, sender, namespace, repository, value):$/;"	m	class:SQLAlchemyService
+_init	lib/config.py	/^def _init():$/;"	f
+_init_path	core/boto.py	/^    def _init_path(self, path=None):$/;"	m	class:Base
+_init_path	drivers/file.py	/^    def _init_path(self, path=None, create=False):$/;"	m	class:Storage
+_pack	lib/rqueue.py	/^    def _pack(self, val):$/;"	m	class:BaseQueue
+_parse_auth_header	toolkit.py	/^def _parse_auth_header():$/;"	f
+_parse_bytes_range	images.py	/^def _parse_bytes_range():$/;"	f
+_proc_pax	lib/xtarfile.py	/^def _proc_pax(self, filetar):$/;"	f
+_proxy	lib/layers.py	/^    def _proxy(self, method, *args, **kwargs):$/;"	m	class:Archive
+_re_authorization	toolkit.py	/^_re_authorization = re.compile(r'(\\w+)[:=][\\s"]?([^",]+)"?')$/;"	v
+_re_docker_version	toolkit.py	/^_re_docker_version = re.compile('docker\/([^\\s]+)')$/;"	v
+_re_hex_image_id	toolkit.py	/^_re_hex_image_id = re.compile(r'^([a-f0-9]{16}|[a-f0-9]{64})$')$/;"	v
+_refresh_max_completed_byte	core/boto.py	/^    def _refresh_max_completed_byte(self):$/;"	m	class:ParallelKey
+_repository_path	core/driver.py	/^    def _repository_path(self, namespace, repository):$/;"	m	class:Base
+_response_headers	lib/mirroring.py	/^def _response_headers(base):$/;"	f
+_retry	lib/index/db_sqlalchemy.py	/^    def _retry(self, *args, **kwargs):$/;"	f	function:retry
+_retry	lib/index/models.py	/^    def _retry(self, *args, **kwargs):$/;"	f	function:retry
+_setup_database	lib/index/db_sqlalchemy.py	/^    def _setup_database(self):$/;"	m	class:SQLAlchemyIndex
+_setup_database	lib/index/models.py	/^    def _setup_database(self):$/;"	m	class:SQLAlchemyIndex
+_setup_table	lib/index/db_sqlalchemy.py	/^    def _setup_table(self):$/;"	m	class:SQLAlchemyService
+_setup_table	lib/index/models.py	/^    def _setup_table(self):$/;"	m	class:SQLAlchemyCategory
+_setup_table	lib/index/models.py	/^    def _setup_table(self):$/;"	m	class:SQLAlchemyRecommend
+_setup_table	lib/index/models.py	/^    def _setup_table(self):$/;"	m	class:SQLAlchemyService
+_signals	lib/signals.py	/^_signals = blinker.Namespace()$/;"	v
+_spawn_jobs	core/boto.py	/^    def _spawn_jobs(self):$/;"	m	class:ParallelKey
+_storage	drivers/dumb.py	/^    _storage = {}$/;"	v	class:Storage
+_storage	storage/__init__.py	/^_storage = {}$/;"	v
+_unpack	lib/rqueue.py	/^    def _unpack(self, val):$/;"	m	class:BaseQueue
+_valid_bytes_range	images.py	/^def _valid_bytes_range(bytes_range):$/;"	f
+_ver	core/compat.py	/^_ver = sys.version_info$/;"	v
+_walk_storage	lib/index/__init__.py	/^    def _walk_storage(self, store):$/;"	m	class:Index
+add_dict_methods	testing/mock_dict.py	/^    def add_dict_methods(self):$/;"	m	class:MockDict
+add_handler	toolkit.py	/^    def add_handler(self, handler):$/;"	m	class:SocketReader
+api_error	toolkit.py	/^def api_error(message, code=400, headers=None):$/;"	f
+app	app.py	/^app = flask.Flask('docker-registry')$/;"	v
+app_url	lib/index/db.py	/^    app_url = db.Column(db.String(128))$/;"	v	class:Service
+append	lib/checksums.py	/^    def append(self, member, tarobj):$/;"	m	class:TarSum
+append	lib/layers.py	/^    def append(self, member):$/;"	m	class:TarFilesInfo
+application	wsgi.py	/^    application = app$/;"	v
+available	core/driver.py	/^def available():$/;"	f
+banner_img_url	lib/index/db.py	/^    banner_img_url = db.Column(db.String(128))$/;"	v	class:Recommend
+basestring	core/compat.py	/^    basestring = (str, bytes)$/;"	v
+basestring	core/compat.py	/^    basestring = basestring$/;"	v
+before_put_image_json	lib/signals.py	/^before_put_image_json = _signals.signal('before-put-image-json')$/;"	v
+boot	extensions/factory.py	/^def boot():$/;"	f
+boot	extras/cors.py	/^def boot(application, config):$/;"	f
+boot	extras/ebugsnag.py	/^def boot(application, api_key, flavor, version):$/;"	f
+boot	extras/enewrelic.py	/^def boot(config_file, license):$/;"	f
+buffer_size	core/driver.py	/^    buffer_size = 128 * 1024$/;"	v	class:Base
+builtin_str	core/compat.py	/^    builtin_str = str$/;"	v
+bytes	core/compat.py	/^    bytes = bytes$/;"	v
+bytes	core/compat.py	/^    bytes = str$/;"	v
+cache_key	core/lru.py	/^def cache_key(key):$/;"	f
+cache_prefix	core/lru.py	/^cache_prefix = None$/;"	v
+cache_prefix	lib/cache.py	/^cache_prefix = None$/;"	v
+category	lib/index/db.py	/^    category = db.Column(db.String(128))$/;"	v	class:Service
+cfg	app.py	/^cfg = config.load()$/;"	v
+cfg	lib/cache.py	/^cfg = config.load()$/;"	v
+cfg	lib/mirroring.py	/^cfg = config.load()$/;"	v
+cfg	search.py	/^cfg = config.load()$/;"	v
+cfg	service.py	/^cfg = config.load()$/;"	v
+cfg	toolkit.py	/^cfg = config.load()$/;"	v
+cfg	wsgi.py	/^cfg = config.load()$/;"	v
+check	core/driver.py	/^def check(value):$/;"	f
+check_images_list	images.py	/^def check_images_list(image_id):$/;"	f
+check_signature	toolkit.py	/^def check_signature():$/;"	f
+check_token	toolkit.py	/^def check_token(args):$/;"	f
+clear	lib/rqueue.py	/^    def clear(self):$/;"	m	class:BaseQueue
+close	lib/layers.py	/^    def close(self):$/;"	m	class:Archive
+comment_url	lib/index/db.py	/^    comment_url = db.Column(db.String(128))$/;"	v	class:Service
+complete_upload	testing/mock_boto.py	/^    def complete_upload(self):$/;"	m	class:MultiPartUpload
+compose_conf	lib/index/db.py	/^    compose_conf = db.Column(db.String(128))$/;"	v	class:Service
+compute	lib/checksums.py	/^    def compute(self):$/;"	m	class:TarSum
+compute_simple	lib/checksums.py	/^def compute_simple(fp, json_data):$/;"	f
+content_redirect_url	core/driver.py	/^    def content_redirect_url(self, path):$/;"	m	class:Base
+content_redirect_url	drivers/s3.py	/^    def content_redirect_url(self, path):$/;"	m	class:Storage
+create_tag_json	tags.py	/^def create_tag_json(user_agent):$/;"	f
+datefmt	app.py	/^                    datefmt="%d\/%b\/%Y:%H:%M:%S %z")$/;"	v
+db	lib/index/db.py	/^db = SQLAlchemy(app)$/;"	v
+decorator	lib/mirroring.py	/^    def decorator(f):$/;"	f	function:source_lookup
+decorator	testing/utils.py	/^    def decorator(func):$/;"	f	function:monkeypatch_method
+defaults	index.py	/^           defaults={'images': True},$/;"	v
+delete	testing/mock_boto.py	/^    def delete(self):$/;"	m	class:Bucket
+delete	testing/mock_boto.py	/^    def delete(self):$/;"	m	class:Key
+delete_repository	tags.py	/^def delete_repository(namespace, repository):$/;"	f
+delete_repository_images	index.py	/^def delete_repository_images(namespace, repository):$/;"	f
+delete_tag	tags.py	/^def delete_tag(namespace, repository, tag):$/;"	f
+delitem	testing/mock_dict.py	/^        def delitem(key):$/;"	f	function:MockDict.add_dict_methods
+description	lib/index/db.py	/^    description = db.Column(db.String(128))$/;"	v	class:Repository
+description	lib/index/db.py	/^    description = db.Column(db.String(512))$/;"	v	class:Service
+description	lib/index/db_sqlalchemy.py	/^    description = sqlalchemy.Column($/;"	v	class:Repository
+description	lib/index/db_sqlalchemy.py	/^    description = sqlalchemy.Column(sqlalchemy.String(length=1024))$/;"	v	class:Service
+diff_queue	lib/layers.py	/^diff_queue = rqueue.CappedCollection(cache.redis_conn, "diff-worker", 1024)$/;"	v
+docker_client_version	toolkit.py	/^def docker_client_version():$/;"	f
+download_number	lib/index/db.py	/^    download_number = db.Column(db.Integer)$/;"	v	class:Service
+dump	lib/rqueue.py	/^    def dump(self, fobj):$/;"	m	class:BaseQueue
+dumpfname	lib/rqueue.py	/^    def dumpfname(self, fname, truncate=False):$/;"	m	class:BaseQueue
+elements	lib/rqueue.py	/^    def elements(self):$/;"	m	class:BaseQueue
+elements_as_json	lib/rqueue.py	/^    def elements_as_json(self):$/;"	m	class:BaseQueue
+emit	core/__init__.py	/^        def emit(self, record):$/;"	m	class:NullHandler
+emit	lib/rqueue.py	/^    def emit(self, record):$/;"	m	class:NullHandler
+enable_redis_cache	lib/cache.py	/^def enable_redis_cache(cache, path):$/;"	f
+enable_redis_lru	lib/cache.py	/^def enable_redis_lru(cache, path):$/;"	f
+enqueue_diff	lib/layers.py	/^def enqueue_diff(image_id):$/;"	f
+exclusive_lock	toolkit.py	/^def exclusive_lock(f):$/;"	f
+exists	core/boto.py	/^    def exists(self, path):$/;"	m	class:Base
+exists	core/driver.py	/^    def exists(self, path):$/;"	m	class:Base
+exists	drivers/dumb.py	/^    def exists(self, path):$/;"	m	class:Storage
+exists	drivers/file.py	/^    def exists(self, path):$/;"	m	class:Storage
+exists	testing/mock_boto.py	/^    def exists(self):$/;"	m	class:Key
+extend	lib/rqueue.py	/^    def extend(self, vals):$/;"	m	class:BaseQueue
+extend	lib/rqueue.py	/^    def extend(self, vals):$/;"	m	class:CappedCollection
+fetch	core/driver.py	/^def fetch(name):$/;"	f
+filter_args	core/driver.py	/^def filter_args(f):$/;"	f
+fn	lib/checksums.py	/^    def fn(buf):$/;"	f	function:simple_checksum_handler
+fn	storage/__init__.py	/^    def fn(buf):$/;"	f	function:temp_store_handler
+fp	lib/checksums.py	/^    fp = open(sys.argv[2])$/;"	v
+gen_random_string	testing/driver.py	/^    def gen_random_string(self, length=16):$/;"	m	class:Driver
+gen_random_string	toolkit.py	/^def gen_random_string(length=16):$/;"	f
+generate	lib/mirroring.py	/^    def generate():$/;"	f	function:_handle_mirrored_layer
+generate_ancestry	lib/layers.py	/^def generate_ancestry(image_id, parent_id=None):$/;"	f
+generate_headers	index.py	/^def generate_headers(namespace, repository, access):$/;"	f
+get	core/lru.py	/^def get(f):$/;"	f
+get_bucket	testing/mock_boto.py	/^    def get_bucket(self, name, **kwargs):$/;"	m	class:S3Connection
+get_by_key	core/lru.py	/^def get_by_key(key):$/;"	f
+get_bytes	core/driver.py	/^    def get_bytes(self, path):$/;"	m	class:Base
+get_content	core/boto.py	/^    def get_content(self, path):$/;"	m	class:Base
+get_content	core/driver.py	/^    def get_content(self, path):$/;"	m	class:Base
+get_content	drivers/dumb.py	/^    def get_content(self, path):$/;"	m	class:Storage
+get_content	drivers/file.py	/^    def get_content(self, path):$/;"	m	class:Storage
+get_content	drivers/s3.py	/^    def get_content(self, path, tries=0):$/;"	m	class:Storage
+get_contents_as_string	testing/mock_boto.py	/^    def get_contents_as_string(self, *args, **kwargs):$/;"	m	class:Key
+get_contents_to_file	testing/mock_boto.py	/^    def get_contents_to_file(self, fp, **kwargs):$/;"	m	class:Key
+get_dict	testing/mock_dict.py	/^    def get_dict(self):$/;"	m	class:MockDict
+get_endpoints	toolkit.py	/^def get_endpoints(overcfg=None):$/;"	f
+get_file_info_map	lib/layers.py	/^def get_file_info_map(file_infos):$/;"	f
+get_image_ancestry	images.py	/^def get_image_ancestry(image_id, headers):$/;"	f
+get_image_diff	images.py	/^def get_image_diff(image_id, headers):$/;"	f
+get_image_diff_cache	lib/layers.py	/^def get_image_diff_cache(image_id):$/;"	f
+get_image_diff_json	lib/layers.py	/^def get_image_diff_json(image_id):$/;"	f
+get_image_files	images.py	/^def get_image_files(image_id, headers):$/;"	f
+get_image_files_cache	lib/layers.py	/^def get_image_files_cache(image_id):$/;"	f
+get_image_files_from_fobj	lib/layers.py	/^def get_image_files_from_fobj(layer_file):$/;"	f
+get_image_files_json	lib/layers.py	/^def get_image_files_json(image_id):$/;"	f
+get_image_json	images.py	/^def get_image_json(image_id, headers):$/;"	f
+get_image_layer	images.py	/^def get_image_layer(image_id, headers):$/;"	f
+get_json	core/driver.py	/^    def get_json(self, path):$/;"	m	class:Base
+get_post_users	index.py	/^def get_post_users():$/;"	f
+get_properties	tags.py	/^def get_properties(namespace, repository):$/;"	f
+get_remote_ip	toolkit.py	/^def get_remote_ip():$/;"	f
+get_repository	toolkit.py	/^def get_repository():$/;"	f
+get_repository_images	index.py	/^def get_repository_images(namespace, repository):$/;"	f
+get_repository_json	tags.py	/^def get_repository_json(namespace, repository):$/;"	f
+get_repository_tag_json	tags.py	/^def get_repository_tag_json(namespace, repository, tag):$/;"	f
+get_search	search.py	/^def get_search():$/;"	f
+get_searvices	service.py	/^def get_searvices():$/;"	f
+get_service_comments	service.py	/^def get_service_comments():$/;"	f
+get_service_info	lib/index/db_sqlalchemy.py	/^    def get_service_info(self, name):$/;"	m	class:SQLAlchemyService
+get_service_info	service.py	/^def get_service_info(service_id):$/;"	f
+get_services_recommend	service.py	/^def get_services_recommend():$/;"	f
+get_services_type	service.py	/^def get_services_type():$/;"	f
+get_size	core/boto.py	/^    def get_size(self, path):$/;"	m	class:Base
+get_size	core/driver.py	/^    def get_size(self, path):$/;"	m	class:Base
+get_size	drivers/dumb.py	/^    def get_size(self, path):$/;"	m	class:Storage
+get_size	drivers/file.py	/^    def get_size(self, path):$/;"	m	class:Storage
+get_tag	tags.py	/^def get_tag(namespace, repository, tag):$/;"	f
+get_tags	tags.py	/^def get_tags(namespace, repository):$/;"	f
+get_unicode	core/driver.py	/^    def get_unicode(self, path):$/;"	m	class:Base
+host	wsgi.py	/^    host = env.source('REGISTRY_HOST')$/;"	v
+icon	lib/index/db.py	/^    icon = db.Column(db.String(128))$/;"	v	class:Service
+icon	lib/index/db_sqlalchemy.py	/^    icon = sqlalchemy.Column(sqlalchemy.String(length=128))$/;"	v	class:Service
+id	lib/index/db.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:Category
+id	lib/index/db.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:Recommend
+id	lib/index/db.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:Repository
+id	lib/index/db.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:Service
+id	lib/index/db.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:Version
+id	lib/index/db_sqlalchemy.py	/^    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)$/;"	v	class:Recommend
+id	lib/index/db_sqlalchemy.py	/^    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)$/;"	v	class:Repository
+id	lib/index/db_sqlalchemy.py	/^    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)$/;"	v	class:Service
+id	lib/index/db_sqlalchemy.py	/^    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)$/;"	v	class:Version
+image_ancestry_path	core/driver.py	/^    def image_ancestry_path(self, image_id):$/;"	m	class:Base
+image_checksum_path	core/driver.py	/^    def image_checksum_path(self, image_id):$/;"	m	class:Base
+image_diff_path	core/driver.py	/^    def image_diff_path(self, image_id):$/;"	m	class:Base
+image_files_path	core/driver.py	/^    def image_files_path(self, image_id):$/;"	m	class:Base
+image_json_path	core/driver.py	/^    def image_json_path(self, image_id):$/;"	m	class:Base
+image_layer_path	core/driver.py	/^    def image_layer_path(self, image_id):$/;"	m	class:Base
+image_mark_path	core/driver.py	/^    def image_mark_path(self, image_id):$/;"	m	class:Base
+images	core/driver.py	/^    images = 'images'$/;"	v	class:Base
+images_list_path	core/driver.py	/^    def images_list_path(self, namespace, repository):$/;"	m	class:Base
+index_images_path	core/driver.py	/^    def index_images_path(self, namespace, repository):$/;"	m	class:Base
+init	app.py	/^def init():$/;"	f
+init	core/lru.py	/^def init(enable=True,$/;"	f
+init	lib/cache.py	/^def init():$/;"	f
+initiate_multipart_upload	testing/mock_boto.py	/^    def initiate_multipart_upload(self, key_name, **kwargs):$/;"	m	class:Bucket
+is_mirror	lib/mirroring.py	/^def is_mirror():$/;"	f
+is_private	core/driver.py	/^    def is_private(self, namespace, repository):$/;"	m	class:Base
+is_py2	core/compat.py	/^is_py2 = (_ver[0] == 2)$/;"	v
+is_py26	core/compat.py	/^is_py26 = (is_py2 and _ver[1] == 6)$/;"	v
+is_py3	core/compat.py	/^is_py3 = (_ver[0] == 3)$/;"	v
+is_ssl	toolkit.py	/^def is_ssl():$/;"	f
+iterate	toolkit.py	/^    def iterate(self, chunk_size=-1):$/;"	m	class:SocketReader
+json	images.py	/^json = compat.json$/;"	v
+json	index.py	/^json = compat.json$/;"	v
+json	lib/layers.py	/^    def json(self):$/;"	m	class:TarFilesInfo
+json	lib/layers.py	/^json = compat.json$/;"	v
+json	lib/mirroring.py	/^json = compat.json$/;"	v
+json	lib/rqueue.py	/^json = compat.json$/;"	v
+json	tags.py	/^json = compat.json$/;"	v
+json	toolkit.py	/^json = compat.json$/;"	v
+json_data	lib/checksums.py	/^    json_data = file(sys.argv[1]).read()$/;"	v
+jsonhelp	testing/driver.py	/^    def jsonhelp(self, path, content, expected):$/;"	m	class:Driver
+keys	lib/config.py	/^    def keys(self):$/;"	m	class:Config
+level	app.py	/^                    level=getattr(logging, cfg.loglevel.upper()),$/;"	v
+level	wsgi.py	/^        level = 'INFO'$/;"	v
+level	wsgi.py	/^    level = cfg.loglevel.upper()$/;"	v
+level	wsgi.py	/^    level = getattr(logging, level)$/;"	v
+list	extensions/factory.py	/^def list():$/;"	f
+list	testing/mock_boto.py	/^    def list(self, **kwargs):$/;"	m	class:Bucket
+list_directory	core/boto.py	/^    def list_directory(self, path=None):$/;"	m	class:Base
+list_directory	core/driver.py	/^    def list_directory(self, path=None):$/;"	m	class:Base
+list_directory	drivers/dumb.py	/^    def list_directory(self, path=None):$/;"	m	class:Storage
+list_directory	drivers/file.py	/^    def list_directory(self, path=None):$/;"	m	class:Storage
+load	lib/config.py	/^def load():$/;"	f
+load	lib/index/__init__.py	/^def load(kind=None):$/;"	f
+load	lib/rqueue.py	/^    def load(self, fobj):$/;"	m	class:BaseQueue
+load	storage/__init__.py	/^def load(kind=None):$/;"	f
+load_category	lib/index/__init__.py	/^def load_category():$/;"	f
+load_checksums	images.py	/^def load_checksums(image_id):$/;"	f
+load_recommend	lib/index/__init__.py	/^def load_recommend():$/;"	f
+load_service	lib/index/__init__.py	/^def load_service():$/;"	f
+loadfname	lib/rqueue.py	/^    def loadfname(self, fname):$/;"	m	class:BaseQueue
+lock_key	lib/rlock.py	/^    def lock_key(self):$/;"	m	class:Lock
+log	lib/rqueue.py	/^log = logging.getLogger('qr')$/;"	v
+logger	core/boto.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	core/compat.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	core/driver.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	core/lru.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	drivers/file.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	drivers/s3.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	images.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	index.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/cache.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/checksums.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/config.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/index/db_sqlalchemy.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/index/models.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/layers.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	lib/mirroring.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	search.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	service.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	storage/__init__.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	tags.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	testing/driver.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	toolkit.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wsgi.py	/^logger = logging.getLogger(__name__)$/;"	v
+lookup	testing/mock_boto.py	/^    def lookup(self, key_name, **kwargs):$/;"	m	class:Bucket
+lookup_source	lib/mirroring.py	/^def lookup_source(path, stream=False, source=None):$/;"	f
+makeConnection	drivers/s3.py	/^    def makeConnection(self):$/;"	m	class:Storage
+makeKey	drivers/s3.py	/^    def makeKey(self, path):$/;"	m	class:Storage
+make_request	testing/mock_boto.py	/^    def make_request(self, *args, **kwargs):$/;"	m	class:S3Connection
+message_digest	toolkit.py	/^def message_digest(s):$/;"	f
+methods	index.py	/^           methods=['PUT'])$/;"	v
+methods	tags.py	/^           methods=['DELETE'])$/;"	v
+methods	tags.py	/^           methods=['PUT'])$/;"	v
+methods	tags.py	/^    methods=['GET'])$/;"	v
+monkeypatch_class	testing/utils.py	/^def monkeypatch_class(name, bases, namespace):$/;"	f
+monkeypatch_method	testing/utils.py	/^def monkeypatch_method(cls):$/;"	f
+name	lib/index/db.py	/^    name = db.Column(db.String(128), unique=True, nullable=False)$/;"	v	class:Repository
+name	lib/index/db.py	/^    name = db.Column(db.String(128), unique=True, nullable=False)$/;"	v	class:Service
+name	lib/index/db.py	/^    name = db.Column(db.String(64), unique=True, nullable=False)$/;"	v	class:Category
+name	lib/index/db_sqlalchemy.py	/^    name = sqlalchemy.Column( sqlalchemy.String(length=128), nullable=False, unique=True)$/;"	v	class:Service
+name	lib/index/db_sqlalchemy.py	/^    name = sqlalchemy.Column($/;"	v	class:Repository
+name	lib/index/db_sqlalchemy.py	/^    name = sqlalchemy.Column(sqlalchemy.String(length=128), nullable=False, unique=True)$/;"	v	class:Recommend
+new_meth	core/boto.py	/^        def new_meth(*args, **kwargs):$/;"	f	function:Base._debug_key
+parse_content_signature	toolkit.py	/^def parse_content_signature(s):$/;"	f
+parse_repository_name	toolkit.py	/^def parse_repository_name(f):$/;"	f
+peek	lib/rqueue.py	/^    def peek(self):$/;"	m	class:BaseQueue
+ping	app.py	/^def ping():$/;"	f
+pop	lib/rqueue.py	/^    def pop(self, block=False):$/;"	m	class:CappedCollection
+port	wsgi.py	/^    port = env.source('REGISTRY_PORT')$/;"	v
+preview	lib/index/db.py	/^    preview = db.Column(db.PickleType) #TODO PickleType?$/;"	v	class:Service
+private_flag_path	core/driver.py	/^    def private_flag_path(self, namespace, repository):$/;"	m	class:Base
+pub	drivers/s3.py	/^    def pub(self, path):$/;"	m	class:Cloudfront
+publish_time	lib/index/db.py	/^    publish_time = db.Column(db.DateTime, default=datetime.utcnow)$/;"	v	class:Service
+push	lib/rqueue.py	/^    def push(self, element):$/;"	m	class:CappedCollection
+put_bytes	core/driver.py	/^    def put_bytes(self, path, content):$/;"	m	class:Base
+put_content	core/driver.py	/^    def put_content(self, path, content):$/;"	m	class:Base
+put_content	drivers/dumb.py	/^    def put_content(self, path, content):$/;"	m	class:Storage
+put_content	drivers/file.py	/^    def put_content(self, path, content):$/;"	m	class:Storage
+put_content	drivers/s3.py	/^    def put_content(self, path, content):$/;"	m	class:Storage
+put_image_checksum	images.py	/^def put_image_checksum(image_id):$/;"	f
+put_image_json	images.py	/^def put_image_json(image_id):$/;"	f
+put_image_layer	images.py	/^def put_image_layer(image_id):$/;"	f
+put_json	core/driver.py	/^    def put_json(self, path, content):$/;"	m	class:Base
+put_repository	index.py	/^def put_repository(namespace, repository, images=False):$/;"	f
+put_repository_auth	index.py	/^def put_repository_auth(namespace, repository):$/;"	f
+put_tag	tags.py	/^def put_tag(namespace, repository, tag):$/;"	f
+put_unicode	core/driver.py	/^    def put_unicode(self, path, content):$/;"	m	class:Base
+put_username	index.py	/^def put_username(username):$/;"	f
+read	core/boto.py	/^    def read(self, size):$/;"	m	class:ParallelKey
+read	lib/layers.py	/^    def read(self, size=-1):$/;"	m	class:Archive
+read	testing/mock_boto.py	/^    def read(self, buffer_size):$/;"	m	class:Key
+read	toolkit.py	/^    def read(self, n=-1):$/;"	m	class:SocketReader
+read_tarfile	lib/layers.py	/^def read_tarfile(tar_fobj):$/;"	f
+readable	lib/layers.py	/^    def readable(self):$/;"	m	class:Archive
+reconnect_db	lib/index/db_sqlalchemy.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyIndex
+reconnect_db	lib/index/db_sqlalchemy.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyService
+reconnect_db	lib/index/models.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyCategory
+reconnect_db	lib/index/models.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyIndex
+reconnect_db	lib/index/models.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyRecommend
+reconnect_db	lib/index/models.py	/^    def reconnect_db(self):$/;"	m	class:SQLAlchemyService
+redis_conn	core/lru.py	/^redis_conn = None$/;"	v
+redis_conn	lib/cache.py	/^redis_conn = None$/;"	v
+remove	core/boto.py	/^    def remove(self, path):$/;"	m	class:Base
+remove	core/driver.py	/^    def remove(self, path):$/;"	m	class:Base
+remove	core/lru.py	/^def remove(f):$/;"	f
+remove	drivers/dumb.py	/^    def remove(self, path):$/;"	m	class:Storage
+remove	drivers/file.py	/^    def remove(self, path):$/;"	m	class:Storage
+repositories	core/driver.py	/^    repositories = 'repositories'$/;"	v	class:Base
+repository_created	lib/signals.py	/^repository_created = _signals.signal('repository-created')$/;"	v
+repository_deleted	lib/signals.py	/^repository_deleted = _signals.signal('repository-deleted')$/;"	v
+repository_json_path	core/driver.py	/^    def repository_json_path(self, namespace, repository):$/;"	m	class:Base
+repository_path	core/driver.py	/^    def repository_path(self, namespace, repository):$/;"	m	class:Base
+repository_tag_json_path	core/driver.py	/^    def repository_tag_json_path(self, namespace, repository, tag):$/;"	m	class:Base
+repository_updated	lib/signals.py	/^repository_updated = _signals.signal('repository-updated')$/;"	v
+require_completion	images.py	/^def require_completion(f):$/;"	f
+requires_auth	toolkit.py	/^def requires_auth(f):$/;"	f
+response	toolkit.py	/^def response(data=None, code=200, headers=None, raw=False):$/;"	f
+results	lib/index/__init__.py	/^    def results(self, search_term=None):$/;"	m	class:Index
+results	lib/index/db_sqlalchemy.py	/^    def results(self, search_term=None):$/;"	m	class:SQLAlchemyIndex
+results	lib/index/db_sqlalchemy.py	/^    def results(self, search_term=None):$/;"	m	class:SQLAlchemyService
+results	lib/index/models.py	/^    def results(self):$/;"	m	class:SQLAlchemyCategory
+results	lib/index/models.py	/^    def results(self):$/;"	m	class:SQLAlchemyRecommend
+results	lib/index/models.py	/^    def results(self, search_term=None):$/;"	m	class:SQLAlchemyIndex
+results	lib/index/models.py	/^    def results(self, search_term=None):$/;"	m	class:SQLAlchemyService
+retry	lib/index/db_sqlalchemy.py	/^def retry(f):$/;"	f
+retry	lib/index/models.py	/^def retry(f):$/;"	f
+root	app.py	/^def root():$/;"	f
+run_gunicorn	run.py	/^def run_gunicorn():$/;"	f
+save_checksums	images.py	/^def save_checksums(image_id, checksums):$/;"	f
+seek	lib/layers.py	/^    def seek(self, offset, whence=0):$/;"	m	class:Archive
+seekable	lib/layers.py	/^    def seekable(self):$/;"	m	class:Archive
+serialize_tar_info	lib/layers.py	/^def serialize_tar_info(tar_info):$/;"	f
+service	lib/index/db.py	/^    service = db.relationship(Service, innerjoin=True, lazy="joined")$/;"	v	class:Recommend
+service_id	lib/index/db.py	/^    service_id = db.Column(db.Integer, db.ForeignKey(Service.id), nullable=False)$/;"	v	class:Recommend
+service_info	lib/index/models.py	/^    def service_info(self, service_name):$/;"	m	class:SQLAlchemyService
+set	core/lru.py	/^def set(f):$/;"	f
+setUp	testing/driver.py	/^    def setUp(self):$/;"	m	class:Driver
+set_cache_headers	images.py	/^def set_cache_headers(f):$/;"	f
+set_contents_from_string	testing/mock_boto.py	/^    def set_contents_from_string(self, value, **kwargs):$/;"	m	class:Key
+set_image_diff_cache	lib/layers.py	/^def set_image_diff_cache(image_id, diff_json):$/;"	f
+set_image_files_cache	lib/layers.py	/^def set_image_files_cache(image_id, files_json):$/;"	f
+set_properties	tags.py	/^def set_properties(namespace, repository):$/;"	f
+setitem	testing/mock_dict.py	/^        def setitem(key, value):$/;"	f	function:MockDict.add_dict_methods
+sha256_file	lib/checksums.py	/^def sha256_file(fp, data=None):$/;"	f
+sha256_string	lib/checksums.py	/^def sha256_string(s):$/;"	f
+sign	drivers/s3.py	/^    def sign(self, url, expire_time=0):$/;"	m	class:Cloudfront
+simple_checksum_handler	lib/checksums.py	/^def simple_checksum_handler(json_data):$/;"	f
+simplehelp	testing/driver.py	/^    def simplehelp(self, path, content, expected, size=0):$/;"	m	class:Driver
+source	server/env.py	/^def source(key, override=''):$/;"	f
+source_lookup	lib/mirroring.py	/^def source_lookup(cache=False, stream=False, index_route=False,$/;"	f
+source_lookup_tag	lib/mirroring.py	/^def source_lookup_tag(f):$/;"	f
+star_number	lib/index/db.py	/^    star_number = db.Column(db.Integer)$/;"	v	class:Service
+stderr_logger	wsgi.py	/^    stderr_logger = logging.StreamHandler()$/;"	v
+store	images.py	/^store = storage.load()$/;"	v
+store	index.py	/^store = storage.load()$/;"	v
+store	lib/layers.py	/^store = storage.load()$/;"	v
+store	tags.py	/^store = storage.load()$/;"	v
+store_mirrored_data	lib/mirroring.py	/^def store_mirrored_data(data, endpoint, args, store):$/;"	f
+str	core/compat.py	/^    str = str$/;"	v
+str	core/compat.py	/^    str = unicode$/;"	v
+stream_read	core/boto.py	/^    def stream_read(self, path, bytes_range=None):$/;"	m	class:Base
+stream_read	core/driver.py	/^    def stream_read(self, path, bytes_range=None):$/;"	m	class:Base
+stream_read	drivers/dumb.py	/^    def stream_read(self, path, bytes_range=None):$/;"	m	class:Storage
+stream_read	drivers/file.py	/^    def stream_read(self, path, bytes_range=None):$/;"	m	class:Storage
+stream_write	core/driver.py	/^    def stream_write(self, path, fp):$/;"	m	class:Base
+stream_write	drivers/dumb.py	/^    def stream_write(self, path, fp):$/;"	m	class:Storage
+stream_write	drivers/file.py	/^    def stream_write(self, path, fp):$/;"	m	class:Storage
+stream_write	drivers/s3.py	/^    def stream_write(self, path, fp):$/;"	m	class:Storage
+supports_bytes_range	core/boto.py	/^    supports_bytes_range = True$/;"	v	class:Base
+supports_bytes_range	core/driver.py	/^    supports_bytes_range = False$/;"	v	class:Base
+supports_bytes_range	drivers/file.py	/^    supports_bytes_range = True$/;"	v	class:Storage
+tag_created	lib/signals.py	/^tag_created = _signals.signal('tag-created')$/;"	v
+tag_deleted	lib/signals.py	/^tag_deleted = _signals.signal('tag-deleted')$/;"	v
+tag_path	core/driver.py	/^    def tag_path(self, namespace, repository, tagname=None):$/;"	m	class:Base
+tearDown	testing/driver.py	/^    def tearDown(self):$/;"	m	class:Driver
+tell	lib/layers.py	/^    def tell(self):$/;"	m	class:Archive
+temp_store_handler	storage/__init__.py	/^def temp_store_handler():$/;"	f
+testDriverIsAvailable	testing/query.py	/^    def testDriverIsAvailable(self):$/;"	m	class:Query
+testFetchingDriver	testing/query.py	/^    def testFetchingDriver(self):$/;"	m	class:Query
+testFetchingNonExistentDriver	testing/query.py	/^    def testFetchingNonExistentDriver(self):$/;"	m	class:Query
+test_empty_after_remove_list_directory	testing/driver.py	/^    def test_empty_after_remove_list_directory(self):$/;"	m	class:Driver
+test_empty_list_directory	testing/driver.py	/^    def test_empty_list_directory(self):$/;"	m	class:Driver
+test_exists_existent	testing/driver.py	/^    def test_exists_existent(self):$/;"	m	class:Driver
+test_exists_non_existent	testing/driver.py	/^    def test_exists_non_existent(self):$/;"	m	class:Driver
+test_get_size_inexistent	testing/driver.py	/^    def test_get_size_inexistent(self):$/;"	m	class:Driver
+test_inexistent_list_directory	testing/driver.py	/^    def test_inexistent_list_directory(self):$/;"	m	class:Driver
+test_json	testing/driver.py	/^    def test_json(self):$/;"	m	class:Driver
+test_list_directory	testing/driver.py	/^    def test_list_directory(self):$/;"	m	class:Driver
+test_list_directory_with_subdir	testing/driver.py	/^    def test_list_directory_with_subdir(self):$/;"	m	class:Driver
+test_paths	testing/driver.py	/^    def test_paths(self):$/;"	m	class:Driver
+test_read_inexistent	testing/driver.py	/^    def test_read_inexistent(self):$/;"	m	class:Driver
+test_remove_existent	testing/driver.py	/^    def test_remove_existent(self):$/;"	m	class:Driver
+test_remove_folder	testing/driver.py	/^    def test_remove_folder(self):$/;"	m	class:Driver
+test_remove_inexistent	testing/driver.py	/^    def test_remove_inexistent(self):$/;"	m	class:Driver
+test_stream	testing/driver.py	/^    def test_stream(self):$/;"	m	class:Driver
+test_stream_read_inexistent	testing/driver.py	/^    def test_stream_read_inexistent(self):$/;"	m	class:Driver
+test_unicode_1	testing/driver.py	/^    def test_unicode_1(self):$/;"	m	class:Driver
+test_unicode_2	testing/driver.py	/^    def test_unicode_2(self):$/;"	m	class:Driver
+test_unicode_3	testing/driver.py	/^    def test_unicode_3(self):$/;"	m	class:Driver
+test_unicode_4	testing/driver.py	/^    def test_unicode_4(self):$/;"	m	class:Driver
+test_unicode_5	testing/driver.py	/^    def test_unicode_5(self):$/;"	m	class:Driver
+test_unicode_6	testing/driver.py	/^    def test_unicode_6(self):$/;"	m	class:Driver
+test_write_read_1	testing/driver.py	/^    def test_write_read_1(self):$/;"	m	class:Driver
+test_write_read_2	testing/driver.py	/^    def test_write_read_2(self):$/;"	m	class:Driver
+test_write_read_3	testing/driver.py	/^    def test_write_read_3(self):$/;"	m	class:Driver
+test_write_read_4	testing/driver.py	/^    def test_write_read_4(self):$/;"	m	class:Driver
+test_write_read_5	testing/driver.py	/^    def test_write_read_5(self):$/;"	m	class:Driver
+test_write_read_6	testing/driver.py	/^    def test_write_read_6(self):$/;"	m	class:Driver
+type	lib/index/db_sqlalchemy.py	/^    type = sqlalchemy.Column(sqlalchemy.String(length=128))$/;"	v	class:Service
+unicodehelp	testing/driver.py	/^    def unicodehelp(self, path, content, expected):$/;"	m	class:Driver
+update_index_images	index.py	/^def update_index_images(namespace, repository, data_arg):$/;"	f
+upload_part_from_file	testing/mock_boto.py	/^    def upload_part_from_file(self, io, num_part):$/;"	m	class:MultiPartUpload
+valid_image_id	toolkit.py	/^def valid_image_id(f):$/;"	f
+validate_parent_access	toolkit.py	/^def validate_parent_access(parent_id):$/;"	f
+validate_token	toolkit.py	/^def validate_token(auth):$/;"	f
+version	lib/index/db.py	/^    version = db.Column(db.String(32))$/;"	v	class:Service
+worker	lib/rqueue.py	/^class worker(object):$/;"	c
+wrapped	lib/rqueue.py	/^        def wrapped():$/;"	f	function:worker.__call__
+wrapper	core/driver.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:filter_args
+wrapper	core/lru.py	/^    def wrapper(*args):$/;"	f	function:get
+wrapper	core/lru.py	/^    def wrapper(*args):$/;"	f	function:remove
+wrapper	core/lru.py	/^    def wrapper(*args):$/;"	f	function:set
+wrapper	images.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_completion
+wrapper	images.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:set_cache_headers
+wrapper	lib/mirroring.py	/^        def wrapper(*args, **kwargs):$/;"	f	function:source_lookup.decorator
+wrapper	lib/mirroring.py	/^    def wrapper(namespace, repository, *args, **kwargs):$/;"	f	function:source_lookup_tag
+wrapper	toolkit.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:exclusive_lock
+wrapper	toolkit.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:requires_auth
+wrapper	toolkit.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:valid_image_id
+wrapper	toolkit.py	/^    def wrapper(repository, *args, **kwargs):$/;"	f	function:parse_repository_name
